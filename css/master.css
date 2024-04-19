@@ -78,6 +78,14 @@ bottom: -29px;
     transition: .5s;
     margin-bottom: 5px;
 }
+@media (max-width:767px) {
+    .sidebar li span {
+        display: none;
+    }
+    .sidebar {
+        width: auto;
+    }
+} 
 /* Start content  */
 .content {
     overflow: hidden;
